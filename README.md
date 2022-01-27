@@ -55,7 +55,7 @@ The goal of the project is to enable converting between the image space and late
 **Generation: Converting between Latent Space to Image Space**
 
 * We use a conditional StyleGAN2-ADA model as our generator.
-* We trained the generator over the IMDB-WIKI dataset (after pre-processing) labeled with age groups of `[0-10]`, `[11-20]`, `[21-30]`, `[41-50]`, `[51-60]`, `[61-70]`, `[71-80]`, `[81-90]`, `[91-100]`.
+* We trained the generator over the IMDB-WIKI dataset (after pre-processing) labeled with age groups of `[0-10]`, `[11-19]`, `[20-29]`, `[30-39]`, `[40-49]`, `[50-59]`, `[60-69]`, `[70-79]`, `[80-89]`, `[90+]`.
 * After we finished training we have a generator that can generate faces according to latent variables and a class.
 
 ![](docs/generator_training.png)
