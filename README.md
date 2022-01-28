@@ -7,9 +7,7 @@ This repository is built upon the repositories of [StyleGAN2-ADA Pytorch](https:
 - Final project to course 046211 - Deep Learning in the Technion
 - by Udi Gal & Moshe Rafaeli
 
-![](./docs/generation006.png)
-![](./docs/generation014.png)
-![](./docs/generation036.png)
+![](./docs/image.png)
 
 ## Contents
 
